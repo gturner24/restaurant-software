@@ -1,5 +1,6 @@
 import pandas as pd
 
+
 class menuItem:
     def __init__(self, itemName, itemPrice, itemCategory):
         self.itemName = itemName
@@ -14,7 +15,6 @@ class menuItem:
 
     def setItemCategory(self, category):
         self.itemCategory = category
-
 
     def getItemName(self):
         return self.itemName
@@ -31,4 +31,31 @@ class menuItem:
         itemString += "Category: " + self.itemCategory + "\n"
         return itemString
 
+    
 
+
+class customerOrder:
+    def __init__(self, date, items, price):
+        self.date = date
+        self.items = items
+        self.price = price
+
+    def setDate(self, date):
+        self.setDate = date
+
+    def setItems(self, items):
+        self.items = items
+
+    def setPrice(self, price):
+        self.price = price
+
+    def getDate(self):
+        return self.date
+
+    def getItems(self):
+        return self.items
+
+    def getPrice(self):
+        return self.items
+
+    #def createReceipt(self, ):
