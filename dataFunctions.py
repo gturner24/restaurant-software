@@ -1,7 +1,6 @@
 import pandas as pd
 
 class menuItem:
-
     def __init__(self, itemName, itemPrice, itemCategory):
         self.itemName = itemName
         self.itemPrice = itemPrice
