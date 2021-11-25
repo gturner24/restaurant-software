@@ -1,10 +1,7 @@
-import pandas as pd
-
-
 class menuItem:
     def __init__(self, itemName, itemPrice, itemCategory):
         self.itemName = itemName
-        self.itemPrice = itemPrice
+        self.itemPrice = str(itemPrice)
         self.itemCategory = itemCategory
 
     def setItemName(self, name):
@@ -31,8 +28,6 @@ class menuItem:
         itemString += "Category: " + self.itemCategory + "\n"
         return itemString
 
-    
-
 
 class customerOrder:
     def __init__(self, date, items, price):
@@ -41,7 +36,7 @@ class customerOrder:
         self.price = price
 
     def setDate(self, date):
-        self.setDate = date
+        self.date = date
 
     def setItems(self, items):
         self.items = items
