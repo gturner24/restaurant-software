@@ -53,6 +53,4 @@ class customerOrder:
     def getPrice(self):
         return self.items
 
-    def __str__(self):
-
-
+    #def createReceipt(self, ):

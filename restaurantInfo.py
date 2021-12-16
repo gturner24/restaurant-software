@@ -1,5 +1,6 @@
 import pandas as pd
 
+restaurantName = "Diamond Back Grill"
 
 def readRestaurantInfo(csv):
     itemList = []  # creating empty lists to store menu items

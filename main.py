@@ -11,7 +11,3 @@ if __name__ == '__main__':
     for i in range(len(restaurantMenu[0])):  # finding the length of the menu
         item = (menuItem(restaurantMenu[0][i], restaurantMenu[1][i], restaurantMenu[2][i]))  # defining the items in the menu
         items.append(item)  # creating a list of all available items on the menu with their prices and item category
-    for item in items:
-        print(item)
-
-
