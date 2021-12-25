@@ -1,14 +1,22 @@
 ﻿ItemName,Price,Category
-Cheeseburger,12.99,Sandwich
-BLT,8.99,Sandwich
-Cheese Pizza,13.99,Pizza
-Chicken Filet,9.99,Sandwich
-Hotdog,6.99,Sandwich
-Caesar Salad,7.99,Salad
-Chicken Salad,7.99,Salad
-Philly Cheese Steak,10.99,Sandwich
+Cocktail,8.99,Drink
+Soda,1.99,Drink
+Chips and Salsa,5.99,Appetizer
+Chips and Queso,5.99,Appetizer
+Beef Stew,6.99,Appetizer
+Tomato Soup,6.99,Appetizer
 Greek Salad,7.99,Salad
 House Salad,7.99,Salad
-Grilled Cheese,5.99,Sandwich
-Beef Stew,6.99,Soup
-Tomato Soup,6.99,Soup
+Caesar Salad,7.99,Salad
+Chicken Salad,7.99,Salad
+Cheeseburger,12.99,Entree
+BLT,8.99,Entree
+Cheese Pizza,13.99,Entree
+Chicken Filet,9.99,Entree
+Hotdog,6.99,Entree
+Philly Cheese Steak,10.99,Entree
+Grilled Cheese,5.99,Entree
+Fish and Chips,11.99,Entree
+Steak and Eggs,14.99,Entree
+Filet Mignon,19.99,Entree
+Fries,3.99,Side
